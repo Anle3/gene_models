@@ -6,5 +6,6 @@ setup(name='gene_models',
       author='Antigoni Elefsinioti',
       author_email='aelefsinioti@gmail.com',
       url='https://github.com/Anle3/gene_models',
-      packages=['twobitreader'],
+      packages=['gene_models'],
+      install_requires=['twobitreader']
      )
