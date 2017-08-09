@@ -37,9 +37,11 @@ hg19.2bit
  * Savbe in output file
  
 ### Install gene_models
-```pip install git+https://github.com/Anle3/gene_models.git  
+```
+pip install git+https://github.com/Anle3/gene_models.git  
 #for local install on servers use --user if you don't have rights to install globaly
-pip install --user git+https://github.com/Anle3/gene_models.git```
+pip install --user git+https://github.com/Anle3/gene_models.git
+```
 
 ### Examples
 ```
