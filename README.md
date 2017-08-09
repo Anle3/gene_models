@@ -10,7 +10,33 @@ twobitreader
 ### Input files  
 A path to a 2bit formated genome and a tab delimited file with gene_models downloaded from UCSCS Table Browser (RefSEq, GENCODE)
 
-### Install  
+### Download input files
+####TwoBit Genome
+Form terminal install 
+```
+pip install ucscgenome
+#for local install on servers use --user if you don't have rights to install globaly
+pip install --user ucscgenome
+```
+```
+#!/usr/bin/env python
+#from ucscgenome import Genome 
+hg19 = Genome('hg19')
+```
+This will install 2bit in ~/.ucscgenome
+```
+ls ~/.ucscgenome
+
+hg19.2bit
+```
+ 
+ ####Gene models
+ * From UCSC table browser select assembly (e.g hg19)
+ * Select gene model track (e.g. GENCODE Genes V19)
+ * Select output format: all fields from selected table
+ * Savbe in output file
+ 
+### Install gene_models
 ```pip install git+https://github.com/Anle3/gene_models.git```  
 
 ### Examples
