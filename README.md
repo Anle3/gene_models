@@ -1,14 +1,16 @@
  
 #Gene Models
  
-##Description
+##Description  
 Gene models provide a toolbox for mapping and extracting transript level information to and from genome.
 
-##Dependencies
+##Dependencies  
 twobitreader
 
-##Input files
+##Input files  
 A path to a 2bit formated genome and a tab delimited file with gene_models downloaded from UCSCS Table Browser (RefSEq, GENCODE)
 
-##Install
-```pip install git+https://github.com/Anle3/gene_models.git```
+##Install  
+```pip install git+https://github.com/Anle3/gene_models.git```  
+
+##Examples
